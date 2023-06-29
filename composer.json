@@ -1,5 +1,5 @@
 {
-    "name": "qobo/cakephp-roles-capabilities",
+    "name": "eugenec138/cakephp-roles-capabilities",
     "description": "Roles and Capabilities plugin for CakePHP",
     "type": "cakephp-plugin",
 	"license": "MIT",
@@ -12,8 +12,8 @@
 		}
 	],
     "require": {
-        "qobo/cakephp-utils": "^6.0",
-        "qobo/cakephp-groups": "^8.0"
+        "eugenec138/cakephp-utils": "^1.0.3",
+        "eugenec138/cakephp-groups": "^1.0.3"
     },
     "require-dev": {
         "phpunit/phpunit": "^5.0",
