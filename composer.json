@@ -1,0 +1,33 @@
+{
+    "name": "qobo/cakephp-roles-capabilities",
+    "description": "Roles and Capabilities plugin for CakePHP",
+    "type": "cakephp-plugin",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Qobo Ltd",
+			"email": "info@qobo.biz",
+			"homepage": "https://www.qobo.biz",
+			"role": "Developer"
+		}
+	],
+    "require": {
+        "qobo/cakephp-utils": "^6.0",
+        "qobo/cakephp-groups": "^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.0",
+        "cakephp/cakephp-codesniffer": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "RolesCapabilities\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "RolesCapabilities\\Test\\": "tests",
+            "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
+        }
+    }
+}
